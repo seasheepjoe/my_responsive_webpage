@@ -22,15 +22,11 @@ window.onload = function () {
         var portNav = document.querySelectorAll(".nav-links-portfolio");
         for (var i in portNav) {
             portNav[i].onclick = function () {
-                var html = this.innerHTML;
-                var portImg = document.querySelectorAll(".portfolio-img");
-                for (var h in portImg) {
-                    var classes = portImg[h].classList;
-                    for (var t in classes) {
-                        console.log(classes[t]);
-                    }
+                var portraits = document.querySelectorAll('.portraits');
+                var elements = document.querySelectorAll('.portfolio-img');
+                for (var t in elements) {
+                    portraits[t].className += 'hidden';
                 }
-
             }
         }
     }
