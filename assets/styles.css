@@ -378,10 +378,15 @@ form[name="contact-form"] button {
     margin-bottom: 4%;
 }
 
-
-
 .footer-nav {
-    padding: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -395,15 +400,17 @@ footer {
     background-position: center;
 }
 
-.footer-nav a {
+.footer-flex a {
     color: rgb(81, 95, 103);
-    padding: 3%;
+    padding: 10%;
     border-bottom: 1px solid rgb(81, 95, 103);
+    font-size: 80%;
 }
 
 .footer-nav p {
     color: rgb(81, 95, 103);
     margin-top: 2%;
+    font-size: 80%;
 }
 
 .title {
@@ -516,12 +523,17 @@ footer {
         align-items: center;
     }
 
-    .footer-nav a {
-        border-bottom: 0;
+    .footer-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
-    .footer-nav a:not(:nth-child(5)) {
-        border-right: 1px solid rgb(81, 95, 103);
+    .footer-flex a {
+        border-bottom: 0;
+        font-size: 100%;
+        padding: 0 3%;
     }
 
     .footer-nav p{
