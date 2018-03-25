@@ -809,10 +809,10 @@ input:focus
 	outline:0;
 }
 
-.hidden {
-    visibility: hidden;
+.visible {
+    display: block;
 }
 
-.visible {
-    visibility: visible;
+.hidden {
+    display: none;
 }
