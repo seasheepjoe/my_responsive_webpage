@@ -370,7 +370,7 @@ form[name="contact-form"] button {
     color: white;
     border: none;
     padding: 2%;
-    width: 100%;
+    width: 50%;
     cursor: pointer;
 }
 
@@ -543,7 +543,7 @@ footer {
 
 @media (min-width: 1024px) {
     html {
-        font-size: 175%;
+        font-size: 100%;
     }
 
     section {
@@ -745,7 +745,7 @@ footer {
     }
 
     .footer-nav a {
-        font-size: 65%;
+        font-size: 80%;
         padding: 2%;
         border: 0;
     }
@@ -772,7 +772,7 @@ footer {
     }
 
     .quotes {
-        margin-top: 6.4%;
+        margin-top: 6.1%;
     }
 
     .twitter-title i {
